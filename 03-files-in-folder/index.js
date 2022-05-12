@@ -16,5 +16,5 @@ readdir(filePath, { withFileTypes: true }, (err, files) => {
         stdout.write(`${name} - ${ext} - ${stats.size / 1000}kb\n`);
       });
     }
-  })
+  });
 });
